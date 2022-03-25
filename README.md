@@ -6,20 +6,20 @@
 
 `$ cd && git clone ssh://git@github.com/moejay/.vim`
 
-### Get vim plugins
+### Move the .vimrc file
 
-`$ cd .vim && git submodule init && git submodule update`
-
-### Move to home folder
-`$ mv .vimrc ../`
-
+`$ mv ~/.vim/.vimrc ~/.vimrc`
 
 ## Plugin manager
-Plugins managed by pathogen
+Plugins managed by vundle
+
+open vim and run `:PluginInstall` 
+
 
 ## Plugins included
 * Nerdtree
 * vim-sensible
+* And more
 
 
 
