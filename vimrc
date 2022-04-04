@@ -6,7 +6,11 @@ call plug#begin()
 
 Plug 'frazrepo/vim-rainbow'
 Plug 'tpope/vim-fugitive'
-Plug 'wincent/command-t'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -28,6 +32,8 @@ syntax on
 
 nnoremap <SPACE> <Nop>
 let mapleader = " "
+
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " Startup automations, likely remove
 autocmd VimEnter * NERDTree
