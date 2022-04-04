@@ -11,7 +11,7 @@
 `$ mv ~/.vim/.vimrc ~/.vimrc`
 
 ## Plugin manager
-Plugins managed by vundle
+Plugins managed by vim-plug
 
 open vim and run `:PluginInstall` 
 
