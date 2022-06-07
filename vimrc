@@ -36,8 +36,8 @@ colorscheme monokai
 set pastetoggle=<F3>
 :set expandtab
 :set tabstop=2
-:set nu
 :set backspace=indent,eol,start
+:set nu rnu
 
 nnoremap <SPACE> <Nop>
 let mapleader = " "
