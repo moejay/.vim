@@ -129,9 +129,6 @@ nmap <leader>q :q!<CR>
 nnoremap <S-tab> :tabprevious<CR>
 nnoremap <tab>   :tabnext<CR>
 nnoremap <C-t>     :tabnew<CR>
-inoremap <S-tab> <Esc>:tabprevious<CR>i
-inoremap <tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
 
 " Startup automations, likely remove
 autocmd VimEnter * NERDTree
