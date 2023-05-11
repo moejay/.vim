@@ -14,9 +14,7 @@ nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>w :tabclose<CR>
 
 " Set relative line numbers
-set relativenumber
+set number relativenumber
 
-" Open NERDTree on startup if no file is specified
-autocmd VimEnter * if argc() == 0 | NERDTree | endif
 
 
